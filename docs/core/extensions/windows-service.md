@@ -141,7 +141,7 @@ Finally, select **Publish**. The app is compiled, and the resulting .exe file is
 Alternatively, you could use the .NET CLI to publish the app:
 
 ```dotnetcli
-dotnet publish --output "C:\custom\publish\directory"
+dotnet publish --configuration Release --output "C:\custom\publish\directory"
 ```
 
 For more information, see [`dotnet publish`](../tools/dotnet-publish.md).
