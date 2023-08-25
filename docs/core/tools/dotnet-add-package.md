@@ -97,10 +97,10 @@ The *ToDo.csproj* file now contains a [`<PackageReference>`](/nuget/consume-pack
 
 ## Examples
 
-- Add `Microsoft.EntityFrameworkCore` NuGet package to a project:
+- Add `Microsoft.EntityFrameworkCore.SqlServer` NuGet package to a project:
 
   ```dotnetcli
-  dotnet add package Microsoft.EntityFrameworkCore
+  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
   ```
 
 - Add a specific version of a package to a project:
